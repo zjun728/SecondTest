@@ -25,6 +25,7 @@ public class CameraMove : MonoBehaviour
 	{
 		player = GameObject.FindWithTag ("Player").transform;
 		currentPoints = new Vector3[5];
+		print("1234");//网站中更改
 	}
 
 	void Start ()
